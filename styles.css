@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-size: 2rem;
+    margin: 3rem;
+}
+#main{
+    background-color: bisque;
+    color: black;
+    
+}
+#tr-form{
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+  
+}
+#tr-form form{
+    width: fit-content;
+    margin: auto;
+}
+#tr-form form label{
+    color: black;
+    font-size: large;
+    
+}
+#tr-form form input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    width: auto;
+    height: 3rem;
+    
+}
+#tr-form form input[type=submit],#tr-form form input[type=reset]{
+    margin: auto;
+    color: red;
+    display: block;
+    width: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+    
+}
+.main,h1,h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+    color: white;
+}
+.quiz-form label{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+   
+
+}
+.question-container {
+    color: white;
+}
