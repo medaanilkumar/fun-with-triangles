@@ -4,7 +4,8 @@
 }
 header{
     font-size: 2rem;
-    margin: 3rem;
+    margin: 0.5rem;
+    text-align: center;
 }
 #main{
     background-color: bisque;
@@ -76,4 +77,77 @@ header{
     text-transform: capitalize;
     margin-top: 3rem;
     font-size: larger;
+}
+
+.Hypotenuse>*{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    flex-direction: column;
+    margin-top: 1rem;
+    line-break: auto;
+    align-items: center;
+    height: fit-content;
+    
+}
+.Hypotenuse,p,button{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: aliceblue;
+    
+}
+.Hypotenuse button,input{
+    width: 300px;
+    height: 50px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.Hypotenuse button:hover{
+    background-color: green;
+    color: white;
+}
+.Hypotenuse button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    flex-wrap:wrap;
+    display: block;
+} 
+input:focus{
+    font-size: large;
+}
+#output{
+    font-size: large;
+    display: block;
+    text-align: center;
+    /* background-color: grey; */
+    width: fit-content;
+    height: 10px;
+    padding: 2rem;
+    
+}
+nav a{
+    
+    text-decoration: none;
+}
+nav li{
+ display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    display: inline-block;
+    align-items: space-between;
+    margin-top: 2rem; 
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 290px;
+    
+}
+nav{
+    background-color: aquamarine;
+    border-bottom-left-radius: 2rem;
+    width: auto;
+    height: auto;
 }
