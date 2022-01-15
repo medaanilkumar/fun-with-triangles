@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
         <div class="main">
             <h1>Quiz</h1>
             <h2 >For each correct answer you will get one point</h2>
-            <form class="quiz-form">
+            <form class="quiz-form" name="quizz">
                 <div class="question-container">
                     <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
                     <label for="45"><input type="radio" name="question1" id="45" value="45°" >45°</label>
@@ -45,8 +45,10 @@
                 </div>
             </form>
             <button type="submit" class="btn" id="submit-btn">Submit</button>
+            <div id="output-score"></div>
         </div>
-        <div id="output-score"></div>
+       
+        <script src="./quiz.js"></script>
     </maincontainer>
 </body>
 </html>

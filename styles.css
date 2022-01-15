@@ -42,6 +42,7 @@ header{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 3rem;
 }
 .container{
     text-align: center;
@@ -62,4 +63,17 @@ header{
 }
 .question-container {
     color: white;
+}
+#submit-btn{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+#output-score{
+    display: block;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    font-size: larger;
 }
