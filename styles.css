@@ -49,11 +49,11 @@ header{
     text-align: center;
     
 }
-.main,h1,h2{
-    margin-top: 1rem;
+ .main,h1,h2{
+    /* margin-top: 1rem; */
     margin-bottom: 1rem;
-    background-color: black;
-    color: white;
+     background-color: black;  
+     color: white;
 }
 .quiz-form label{
     display: flex;
@@ -71,7 +71,7 @@ header{
     border-radius: 2rem;
     margin-bottom: 3rem;
     margin-top: 2rem;
-}
+} 
 #output-score{
     display: block;
     text-transform: capitalize;
@@ -91,13 +91,13 @@ header{
     height: fit-content;
     
 }
-.Hypotenuse,p,button{
+.Hypotenuse p,.HHypotenuse button{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: aliceblue;
+     background-color: aliceblue; 
     
 }
-.Hypotenuse button,input{
+.Hypotenuse button,.Hypotenuse input{
     width: 300px;
     height: 50px;
     border-radius: 2rem;
@@ -123,7 +123,6 @@ input:focus{
     font-size: large;
     display: block;
     text-align: center;
-    /* background-color: grey; */
     width: fit-content;
     height: 10px;
     padding: 2rem;
